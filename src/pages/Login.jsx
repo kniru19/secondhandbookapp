@@ -10,8 +10,7 @@ function BrandPanel() {
       <p className="eyebrow">SECONDHAND BOOKS</p>
       <h2>Every story deserves<br />another reader.</h2>
       <p className="brand-copy">
-        Find your next favourite book, give your old ones a new home, and
-        keep good stories moving.
+        Find your next favourite second-hand book. 
       </p>
       <div className="book-stack" aria-hidden="true">
         <span className="book book--cream" />
