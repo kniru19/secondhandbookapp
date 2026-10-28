@@ -1,0 +1,17 @@
+@import "./Auth.css";
+
+.register-page { justify-content: center; background: #e8e4da; }
+.register-card { width: min(100%, 620px); min-height: 100svh; flex-direction: column; align-items: stretch; padding: 58px clamp(28px, 6vw, 82px); background: #f7f5f0; }
+.register-header { display: flex; align-items: center; gap: 13px; margin-bottom: 70px; }
+.brand-mark--small { width: 40px; height: 40px; font-size: 13px; border-radius: 12px 12px 12px 4px; }
+.header-note { margin: 3px 0 0; color: #8a969d; font-size: 11px; }
+.register-heading .form-intro { margin-bottom: 29px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.terms { margin: 5px 0 25px; color: #70808b; font-size: 12px; line-height: 1.45; }
+.terms a { color: #a56a25; font-weight: 700; }
+.register-card .account-prompt { margin-top: 25px; }
+
+@media (max-width: 560px) {
+  .register-header { margin-bottom: 52px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+}
